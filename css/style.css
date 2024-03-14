@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    padding: 5rem;
+}
+h1,
+p {
+    margin-bottom: 2rem;
+}
+#open,
+#close {
+    background: #EFEBE1;
+    border: 3px solid #000;
+    border-radius: .9rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+#mask {
+    background: rgba(0, 0, 0, .6);
+    position: fixed;
+    inset: 0;
+    z-index: 9998;
+    opacity: 0;
+    visibility: hidden;
+}
+#model {
+    background: #fff;
+    max-width: 36rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    position: absolute;
+    inset: 10rem 0 auto;
+    margin: auto;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+}
